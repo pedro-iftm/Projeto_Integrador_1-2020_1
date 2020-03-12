@@ -1,9 +1,8 @@
 nav {
   display: flex;
-  background-color: #343434;
 }
 
-li {
+nav li {
   display: inline;
 }
 
