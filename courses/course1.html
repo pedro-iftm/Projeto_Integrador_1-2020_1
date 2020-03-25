@@ -12,33 +12,44 @@
 
 <body>
   <header class="linha">
-    <nav style="background-color: #343434;">
+    <nav style="background-color: #e7e7e7;">
 
+      <a href="../index.html" class="logo">
+        <img src="../assets/logo.png" alt="Logo" width=40px height=40px>
+      </a>
       <ul>
         <li>
           <div class="dropdown">
-            <button class="dropbtn">Cursos</button>
+            <button class="nav-button">
+              <a href="#" class="nav-a">Cursos</a>
+            </button>
             <div class="dropdown-content">
               <ul>
-                <li><a href="course1.html">curso1</a></li>
+                <li><a href="#">Clean Code</a></li>
+                <li><a href="#">Design Patterns</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">SPA</a></li>
+                <li><a href="#">REST</a></li>
               </ul>
             </div>
           </div>
         </li>
         <li>
-            <div class="dropdown">
-              <button class="dropbtn"><a href="../about.html">Quem somos</a></button>
-              <div class="dropdown-content">
-                <ul>
-                  <li><a href="https://br.linkedin.com/in/pedro-santos-arruda">Pedro</a></li>
-                </ul>
-              </div>
+          <div class="dropdown">
+            <button class="nav-button">
+              <a href="../about.html" class="nav-a">Quem somos</a>
+            </button>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="https://br.linkedin.com/in/pedro-santos-arruda">Pedro</a></li>
+              </ul>
             </div>
-          </li>
+          </div>
+        </li>
         <li>
           <div class="dropdown">
-            <button class="dropbtn">
-                <a href="../contact.html">Fale conosco</a>
+            <button class="nav-button">
+                <a href="../contact.html" class="nav-a">Fale conosco</a>
             </button>
           </div>
         </li>
@@ -48,50 +59,76 @@
   </header>
 
   <section>
-    <article class="linha">
-      <div class="col-dm-12 col-dg-12" style="background-color: rgb(59, 59, 36)">
-          <p style="text-align: center">Seja bem-vindo ao Portal Cursos SI</p>
+    <article class="linha card">
+      <div class="col-dm-12 col-dg-12 divider">
+        <p style="text-align: center">Seja bem-vindo ao Portal Cursos SI</p>
       </div>
       <div class="col-dm-12 col-dg-12">
         <p style="text-align: center">
-          Um novo jeito de aprender cursos na área de Tecnologia da Informação. No portal, você terá a oportunidade de fazer até 6 cursos gratuitos, que vão desde conceitos básicos de programação até inglês instrumental. Bom curso e um excelente aproveitamento!!
+          Um novo jeito de aprender cursos na área de Tecnologia da Informação. No portal, você terá a oportunidade de
+          fazer até 6 cursos gratuitos, que vão desde conceitos básicos de programação até inglês instrumental. Bom
+          curso e um excelente aproveitamento!!
         </p>
-        <img src="./assets/business.jpg" alt="business image" width=1300 height=200>
+        <div class="col-dm-4 col-dg-4">
+          <button>Aula 1</button>
+          <p><strong>Objetivo:</strong> O objetivo desta primeira vídeo-aula de Arquitetura de Computadores é introduzir ao aluno o conhecimento sobre a arquitetura do computador abrangendo sobre o conceito de Von Neuman e seu modelo proposto.</p>
+          <p><strong>Instrutor:</strong> Pedro</p>
+          <p><strong>Duração:</strong> 3 minutos</p>
+
+          <button>Material de Apoio</button>
+          <button>Lista de exercícios</button>
+        </div>
+        <div class="col-dm-8 col-dg-8">
+          <iframe width="850" height="500" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </div>
       </div>
+      <div class="col-dm-12 col-dg-12">
+        <div class="col-dm-4 col-dg-4">
+          <button>Aula 2</button>
+          <p><strong>Objetivo:</strong> O objetivo desta primeira vídeo-aula de Arquitetura de Computadores é introduzir ao aluno o conhecimento sobre a arquitetura do computador abrangendo sobre o conceito de Von Neuman e seu modelo proposto.</p>
+          <p><strong>Instrutor:</strong> Pedro</p>
+          <p><strong>Duração:</strong> 3 minutos</p>
+
+          <button>Material de Apoio</button>
+          <button>Lista de exercícios</button>
+        </div>
+        <div class="col-dm-8 col-dg-8">
+          <iframe width="850" height="500" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </div>
       </div>
     </article>
 
-  <footer class="linha" style="background-color: gray">
-    <div class="col-dm-2 col-dg-2">
-      <h3>Mapa do site</h3>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../index.html#courses">Nossos cursos</a></li>
-        <li><a href="../about.html">Quem somos</a></li>
-        <li><a href="../contact.html">Fale conosco</a></li>
-      </ul>
-    </div>
+    <footer class="linha" style="background-color: #e7e7e7;">
+      <div class="col-dm-2 col-dg-2">
+        <h3>Mapa do site</h3>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#courses">Nossos cursos</a></li>
+          <li><a href="../about.html">Quem somos</a></li>
+          <li><a href="../contact.html">Fale conosco</a></li>
+        </ul>
+      </div>
 
-    <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-4 col-dg-4">
         <h3>Cursos</h3>
         <p>PPI</p>
         <p>FW2</p>
         <p>Projeto</p>
       </div>
 
-    <div class="col-dm-2 col-dg-2">
-      <h3>Quem somos</h3>
-      <a href="https://br.linkedin.com/in/pedro-santos-arruda">Pedro</a>
-    </div>
+      <div class="col-dm-2 col-dg-2">
+        <h3>Quem somos</h3>
+        <a href="https://br.linkedin.com/in/pedro-santos-arruda">Pedro</a>
+      </div>
 
-    <div class="col-dm-4 col-dg-4">
-      <h3>Contato</h3>
-      <img src="./assets/media.png" alt="Logo das redes sociais"width=300>
-      <p>R. Blanche Galassi, 150 - Altamira, Uberlândia - MG, 38411-104</p>
-      <p>pedroiftm1999@gmail.com</p>
-      <p>(34) 3221-4800</p>
-    </div>
-  </footer>
+      <div class="col-dm-4 col-dg-4">
+        <h3>Contato</h3>
+        <img src="./assets/media.png" alt="Logo das redes sociais" width=300>
+        <p>R. Blanche Galassi, 150 - Altamira, Uberlândia - MG, 38411-104</p>
+        <p>pedroiftm1999@gmail.com</p>
+        <p>(34) 3221-4800</p>
+      </div>
+    </footer>
 </body>
 
 </html>

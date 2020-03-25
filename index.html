@@ -10,35 +10,49 @@
   <title>Projeto Integrador</title>
 </head>
 
+<!-- TODO: Align images and buttons -->
+<!-- TODO: Make all buttons blue -->
+
 <body>
   <header class="linha">
-    <nav style="background-color: #343434;">
+    <nav style="background-color: #e7e7e7;">
 
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Logo" width=40px height=40px>
+      </a>
       <ul>
         <li>
           <div class="dropdown">
-            <button class="dropbtn">Cursos</button>
+            <button class="nav-button">
+              <a href="#" class="nav-a">Cursos</a>
+            </button>
             <div class="dropdown-content">
               <ul>
-                <li><a href="courses/course1.html">curso1</a></li>
+                <li><a href="courses/course1.html">Clean Code</a></li>
+                <li><a href="#">Design Patterns</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">SPA</a></li>
+                <li><a href="#">REST</a></li>
               </ul>
             </div>
           </div>
         </li>
         <li>
-            <div class="dropdown">
-              <button class="dropbtn"><a href="about.html">Quem somos</a></button>
-              <div class="dropdown-content">
-                <ul>
-                  <li><a href="https://br.linkedin.com/in/pedro-santos-arruda">Pedro</a></li>
-                </ul>
-              </div>
+          <div class="dropdown">
+            <button class="nav-button">
+              <a href="about.html" class="nav-a">Quem somos</a>
+            </button>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="https://br.linkedin.com/in/pedro-santos-arruda">Pedro</a></li>
+              </ul>
             </div>
-          </li>
+          </div>
+        </li>
         <li>
           <div class="dropdown">
-            <button class="dropbtn">
-                <a href="contact.html">Fale conosco</a>
+            <button class="nav-button">
+                <a href="contact.html" class="nav-a">Fale conosco</a>
             </button>
           </div>
         </li>
@@ -48,8 +62,8 @@
   </header>
 
   <section>
-    <article class="linha">
-      <div class="col-dm-12 col-dg-12" style="background-color: rgb(59, 59, 36)">
+    <article class="linha card">
+      <div class="col-dm-12 col-dg-12 divider">
           <p style="text-align: center">Seja bem-vindo ao Portal Cursos SI</p>
       </div>
       <div class="col-dm-12 col-dg-12">
@@ -61,66 +75,72 @@
       </div>
     </article>
 
-    <article class="linha" id="courses">
-      <div class="col-dm-12 col-dg-12"  style="background-color: rgb(59, 59, 36)">
+    <article class="linha card" id="courses">
+      <div class="col-dm-12 col-dg-12 divider" >
         <p style="text-align: center">Conheça abaixo todos os cursos oferecidos em nosso portal</p>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/course.jpg" alt="image of course" width=250>
+        <h4 style="text-align: center"><strong>NOME CURSO</strong></h4>
         <p style="text-align: center">Propiciar o aprendizado de introdução á computação e lógica de programação de computadores. Ao final do curso, os estudantes devem ser capazes de projetar algoritmos e de desenvolver programas.</p>
         <button>Acessar</button>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/course.jpg" alt="image of course" width=250>
+        <h4 style="text-align: center"><strong>NOME CURSO</strong></h4>
         <p style="text-align: center">Propiciar o aprendizado de introdução á computação e lógica de programação de computadores. Ao final do curso, os estudantes devem ser capazes de projetar algoritmos e de desenvolver programas.</p>
         <button>Acessar</button>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/course.jpg" alt="image of course" width=250>
+        <h4 style="text-align: center"><strong>NOME CURSO</strong></h4>
         <p style="text-align: center">Propiciar o aprendizado de introdução á computação e lógica de programação de computadores. Ao final do curso, os estudantes devem ser capazes de projetar algoritmos e de desenvolver programas.</p>
         <button>Acessar</button>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/course.jpg" alt="image of course" width=250>
+        <h4 style="text-align: center"><strong>NOME CURSO</strong></h4>
         <p style="text-align: center">Propiciar o aprendizado de introdução á computação e lógica de programação de computadores. Ao final do curso, os estudantes devem ser capazes de projetar algoritmos e de desenvolver programas.</p>
         <button>Acessar</button>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/course.jpg" alt="image of course" width=250>
+        <h4 style="text-align: center"><strong>NOME CURSO</strong></h4>
         <p style="text-align: center">Propiciar o aprendizado de introdução á computação e lógica de programação de computadores. Ao final do curso, os estudantes devem ser capazes de projetar algoritmos e de desenvolver programas.</p>
         <button>Acessar</button>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/course.jpg" alt="image of course" width=250>
+        <h4 style="text-align: center"><strong>NOME CURSO</strong></h4>
         <p style="text-align: center">Propiciar o aprendizado de introdução á computação e lógica de programação de computadores. Ao final do curso, os estudantes devem ser capazes de projetar algoritmos e de desenvolver programas.</p>
         <button>Acessar</button>
       </div>
     </article>
   </section>
 
-  <section>
+  <section class="card">
     <article class="linha">
-      <div class="col-dm-12 col-dg-12" style="background-color: rgb(59, 59, 36)">
+      <div class="col-dm-12 col-dg-12 divider">
         <p style="text-align: center">O que os nossos alunos tem dito?</p>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/user.png" alt="image of course" width=100>
         <p style="text-align: center">"O Portal Cursos SI salvou minha vida. Não tenho tempo nem dinheiro para fazer faculdade. Minha meta é tornar-me um desenvolvedor da web freelancer e, graças ao Portal Cursos SI, estou a um passo disso." Marco Aurélio Santos</p>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/user.png" alt="image of course" width=100px>
         <p style="text-align: center">"O Portal Cursos SI salvou minha vida. Não tenho tempo nem dinheiro para fazer faculdade. Minha meta é tornar-me um desenvolvedor da web freelancer e, graças ao Portal Cursos SI, estou a um passo disso." Marco Aurélio Santos</p>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-3 col-dg-3 card">
         <img src="./assets/user.png" alt="image of course" width=100>
         <p style="text-align: center">"O Portal Cursos SI salvou minha vida. Não tenho tempo nem dinheiro para fazer faculdade. Minha meta é tornar-me um desenvolvedor da web freelancer e, graças ao Portal Cursos SI, estou a um passo disso." Marco Aurélio Santos</p>
       </div>
@@ -128,19 +148,19 @@
   </section>
 
   <section>
-    <article class="linha">
-      <div class="col-dm-12 col-dg-12" style="background-color: rgb(59, 59, 36)">
+    <article class="linha card">
+      <div class="col-dm-12 col-dg-12 divider">
         <p style="text-align: center">Quem somos?</p>
       </div>
 
-      <div class="col-dm-4 col-dg-4">
+      <div class="col-dm-4 col-dg-4 card">
         <img src="./assets/pedro.png" alt="image of course" width=100px>
         <p style="text-align: center">Pedro pipipi popopo</p>
       </div>
     </article>
   </section>
 
-  <footer class="linha" style="background-color: gray">
+  <footer class="linha" style="background-color: #e7e7e7;">
     <div class="col-dm-2 col-dg-2">
       <h3>Mapa do site</h3>
       <ul>
